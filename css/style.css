@@ -191,8 +191,18 @@ body{
    .headline-img{
     max-width: 100%;
    }
+   @media(max-width: 1200px){
+    .color-list{
+        flex-wrap: wrap;
+    }
+    .color-item{
+        width: 50%;
+        margin-bottom: 30px; 
+
+    }
+   }
 }
-@media(max-width: 920px){
+@media(max-width: 940px){
     .images-new{
         display: none;
     }
@@ -205,9 +215,19 @@ body{
     .title{
         font-size: 34px;
         line-height: 42px;
-    }
+    
  }
  .new-title, .color-title{
     font-size: 28px;
     line-height: 32px;
  }
+ .headline-btn{
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px 90px;
+ }
+ .color-item{
+    width: 100%;
+    
+}
+}
